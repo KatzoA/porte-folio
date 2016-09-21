@@ -1,33 +1,285 @@
-h1 {
-    text-shadow: 3px 1px 9px #aa98a9;
-}
+/*to add responsive */
+/*do something about IE*/
+  .section {
+				height: 400px;
+				width: 75%;
+				margin: 0px auto;
+				padding-top: 15%;
+				font-size: 20px;
+				color: white;
+				text-align: center;
+				font-family: 'Oswald', sans-serif;
+
+			}
 
 
-.img-circle{
-   -webkit-box-shadow: 5px 5px 5px #111;
-           box-shadow: 15px 18px 18px #111;
-}
+
+			body, html, .container {
+				/* important */
+				height: 100%;
+				font-size: 0px;
+				margin: 0px;
+				padding: 0px;
+				font-family:
+			}
 
 
 
-.Pics {
-  -webkit-box-shadow: 5px 5px 5px #111;
-          box-shadow: 5px 5px 5px #111;
+			.cd-fixed-bg {
+				min-height: 100%;
+				width: 100%;
+				background-size: cover;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-position: center center;
+				margin: 0px;
+				padding: 0px;
+				display: inline-block;
+				overflow: hidden; /*do not forget this line here*/
+			}
 
-}
-.img, .PicShadwow {
-  -webkit-box-shadow: 5px 5px 5px #111;
-          box-shadow: 5px 5px 5px #111;
 
-}
+			.cd-fixed-bg.cd-bg-1 {
+			  background-image: url("https://dl.dropboxusercontent.com/u/80598466/portfolio_page/spiral_background.jpg");
+			}
+			.cd-fixed-bg.cd-bg-2 {
+			  background-image: url("https://dl.dropboxusercontent.com/u/80598466/portfolio_page/lights_background.jpg");
+			}
+			.cd-fixed-bg.cd-bg-3 {
+			  background-image: url("https://dl.dropboxusercontent.com/u/80598466/portfolio_page/building_background.jpg");
+			}
+			.cd-fixed-bg.cd-bg-4 {
+			  background-image: url("https://dl.dropboxusercontent.com/u/80598466/portfolio_page/starry_background.jpg");
+			}
 
-.Pics {
-  opacity: 0.8;
-  }
-.Pics:hover {
-  opacity: 1;
-  }
+			.contactB {
+				opacity: 0.7;
+				width: 120px;
+				height: 70px;
+				background-color: black;
+				font-size: 12px;
+				color: white;
+				border-radius: 10%;
+				margin-right: 5px;
+				margin-left: 5px;
+				font-family: 'Oswald', sans-serif;
+			}
 
-.jumbotron{
-  background-color: 009fff;
-}
+			.contactB:hover {
+				opacity: 0.9;
+				cursor: pointer;
+			}
+
+			li {
+				display: inline;
+				padding-left: 5px;
+				padding-right: 5px;
+				height: 100% auto;
+
+
+			}
+
+			li:hover {
+				background-color: white;
+				color: black;
+				cursor: pointer;
+			}
+
+			li>a {
+				text-decoration: none;
+				color: grey;
+			}
+			li>a:hover {
+				color: black;
+			}
+			.menu, .footer {
+				background-color: black;
+				width: 100%;
+				height: 50px;
+				font-size: 10px;
+				color: grey;
+				font-family: 'Oswald', sans-serif;
+			}
+
+			.menu {
+				position: fixed;
+				z-index: 1;
+			}
+
+			.tinyMenu {
+				text-align: right;
+				padding-right: 5%;
+				display: inline-block;
+				height: 100%;
+				width: 40%;
+				font-size: 15px;
+
+			}
+
+			.tinyName {
+				text-align: left;
+				padding-left: 5%;
+				display: inline-block;
+				height: 100%;
+				width: 40%;
+				font-size: 15px;
+			}
+
+			h1 {
+				font-family: 'Orbitron', sans-serif;
+        background-color: rgba(0, 0, 0, 0.7);
+			}
+
+			h2 {
+				font-family: 'Orbitron', sans-serif;
+			}
+
+			.meText {
+				padding: 0px;
+				margin: 0px;
+				width: 50%;
+				height: 100%;
+				display: inline-block;
+				text-align: center;
+				margin: auto;
+
+			}
+
+			.mePic {
+				padding: 0px;
+				margin: 0px;
+				width: 50%;
+				height: 100%;
+				display: inline-block;
+				float: right;
+
+			}
+
+			.portrait {
+				background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAmAAAAAJGZlYTNkM2MzLTgwMDAtNDI3MC1iN2NiLTJjMTYwYzA2MzMxNg.jpg');
+				background-repeat: no-repeat;
+			    background-position: center;
+			    background-size: 150px;
+				width: 150px;
+				height: 150px;
+				border-radius: 20%;
+				border: 1px solid grey;
+				margin: auto;
+			}
+
+			.portfolioDiv {
+				width: 100%;
+				height: 100%;
+			}
+
+			.imageportfolio {
+				width: 25%;
+				height: 35%;
+				min-width: 100px;
+				display: inline-block;
+				margin-left: 3px;
+				margin-right: 3px;
+				opacity: 0.5;
+        color: white;
+			}
+
+			.imageportfolio:hover {
+				opacity: 1;
+			}
+
+			.empty {
+				background-image: url('https://images.unsplash.com/photo-1453282649935-38317451bf29?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=98a9923da68672214ba4fa9596970040');
+				background-size: 85%;
+				background-position: center;
+
+			}
+
+
+
+
+
+
+
+
+
+
+			#portfolioG {
+				background-image: url('https://dl.dropboxusercontent.com/u/80598466/portfolio_page/portofoliu.jpg');
+				background-size: 100%;
+				background-position: center;
+			}
+			#portfolioG p {
+				height: 70%;
+				background-color: black;
+				opacity: 0.7;
+			}
+			#portfolioG p:hover {
+				color: black;
+				opacity: 0;
+			}
+
+			#floodG {
+				background-image: url('https://dl.dropboxusercontent.com/u/80598466/portfolio_page/flood.jpg');
+				background-size: 100%;
+				background-position: center;
+			}
+			#floodG p {
+				height: 70%;
+				background-color: black;
+				opacity: 0.7;
+			}
+			#floodG p:hover {
+				color: black;
+				opacity: 0;
+			}
+
+			#quoteG {
+				background-image: url('https://dl.dropboxusercontent.com/u/80598466/portfolio_page/quote_machine.jpg');
+				background-size: 100%;
+				background-position: center;
+			}
+			#quoteG p {
+				height: 70%;
+				background-color: black;
+				opacity: 0.7;
+			}
+			#quoteG p:hover {
+				color: black;
+				opacity: 0;
+			}
+
+			#reflexG {
+				background-image: url('https://dl.dropboxusercontent.com/u/80598466/portfolio_page/reflexes.jpg');
+				background-size: 100%;
+				background-position: center;
+			}
+			#reflexG p {
+				height: 70%;
+				background-color: black;
+				opacity: 0.7;
+			}
+			#reflexG p:hover {
+				color: black;
+				opacity: 0;
+			}
+
+			.footer ul {
+				padding: 10px;
+				margin: 0px;
+				font-size: 0px;
+				text-align: right;
+			}
+
+			.footer li {
+				padding: 5px;
+				font-size: 15px;
+			}
+
+			.logo {
+				width: 75px;
+			}
+
+			.logoDiv {
+				display: inline-block;
+				padding: 20px;
+			}
